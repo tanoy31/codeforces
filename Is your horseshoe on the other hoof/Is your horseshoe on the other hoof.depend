@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1751471529 source:e:\codeforces\is your horseshoe on the other hoof\main.cpp
+	<iostream>
+	<algorithm>
+	<array>
+
