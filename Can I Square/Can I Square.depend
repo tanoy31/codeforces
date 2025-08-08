@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1754243346 source:e:\codeforces\can i square\main.cpp
+	<iostream>
+	<cmath>
+
