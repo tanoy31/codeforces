@@ -17,25 +17,28 @@ int main()
         sort(a,a+n);
         int count=1;
         int x;
+        int f=0;
         for(int i=0;i<n-1;i++)
         {
             if(a[i]==a[i+1])
             {
                 count++;
                 x=a[i];
+                if(count>=3)
+                {
+                    cout<<x<<endl;
+                    f=1;
+                    break;
+                }
             }
-            /*else
+            else
             {
                 count=1;
-            }*/
+            }
         }
-        if(count>=3)
+        if(f==0)
         {
-            cout<<x<<endl;
-        }
-        else
-        {
-            cout<< "-1"<<endl;
+            cout<<"-1"<<endl;
         }
     }
 }
